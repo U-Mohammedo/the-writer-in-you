@@ -1,0 +1,198 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    text-align: center;
+    width: 85vw;
+    padding: 0px 25px;
+    background: #d5d5d5;
+}
+
+body p,
+body li {
+    font-size: 1.125em;
+}
+
+#container {
+    background-color: #ffffff;
+}
+
+#header {
+    overflow: auto;
+    /*padding: 20px 0px;*/
+    border-bottom: 1px solid #ececec;
+    padding: 10px;
+    margin: 0 0 5px 0;
+}
+
+#header li {
+    list-style: none;
+    display: inline;
+}
+
+#header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+}
+
+.right li {
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#content {
+    display: flex;
+    /*margin: 40px 0px;*/
+}
+
+main {
+    text-align: left;
+    width: 70%;
+    margin: 0px 20px 0 0;
+}
+
+#newPosts {
+    padding: 30px;
+    margin: 10px;
+}
+
+#donate,
+#newsletter,
+#about {
+    padding: 30px;
+    margin: 30px;
+    background-color: #f6f6f6;
+}
+
+#donate h3,
+#newsletter h3,
+#about h3,
+#newPosts h3 {
+    padding: 5px 0px;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #8c8c8c;
+    font-size: 1.9em;
+    font-weight: 100;
+    text-align: left;
+}
+
+#donate a,
+#about a {
+    color: #8b2323;
+}
+
+#newPosts h2 {
+    padding: 15px 0;
+    font-size: 2.25em;
+    font-weight: 200;
+}
+
+aside {
+    text-align: left;
+    width: 35%;
+    margin: 0px 0 0 20px;
+}
+
+#poems {
+    padding: 0px 0px 10px 10px;
+    border-left: 1px solid #ececec;
+    margin: 50px 0 0 0;
+}
+
+#poems h3 {
+    padding: 7px;
+    margin: 0 0 10px 0;
+    font-size: 1.9em;
+    font-weight: 100;
+}
+
+#poems li {
+    list-style: none;
+    padding: 2px 2px 2px 0px;
+    margin: 15px 10px;
+}
+
+#poems a {
+    background: #e2e2e2;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#weeklyMail input[type="text"],
+input[type="email"] {
+    width: 200px;
+    padding: 8px;
+    /*color: #666666;
+    border: none;*/
+    background-color: #ffffff;
+    letter-spacing: 0;
+    /*border-radius: 4px;*/
+}
+
+#weeklyMail input[type="submit"] {
+    padding: 8px 15px;
+    font-weight: bold;
+    line-height: 1;
+    color: #444;
+    border: none;
+    background-color: #ffdb00;
+    border-radius: 23px;
+}
+
+#weeklyMail input {
+    margin: 8px;
+}
+
+#newsletter form {
+    margin: 15px 0px;
+}
+
+#poems a {
+    color: #000000;
+}
+
+footer {}
+
+footer p {
+    padding: 15px;
+}
+
+.quote {
+    border-bottom: 1px solid #CDCDCD;
+}
+
+#socials {
+    padding: 10px;
+    margin: 5px 0 0 0;
+}
+
+#socials li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+#socials a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
